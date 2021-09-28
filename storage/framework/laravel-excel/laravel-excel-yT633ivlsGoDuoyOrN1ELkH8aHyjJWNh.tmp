@@ -1,0 +1,84 @@
+Nombres,Apellido 1,Apellido 2,Cédula,Fecha de Nacimiento,Género,Fecha de Ingreso,Número de empleado,Cargo,Jefe,Zona,Municipio,Departamento,Ventas 2019,Email,Contraseña,Imágen,Celular
+Elías,Unzueta,Maya,94.278.700,30/7/1991,M,26/3/2005,5700001,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$46.756.057,elias.unzueta@sulogistics.com,eunzuetam1991,M1.jpg,313-222-9991
+Gregorio,Echeverría,Ezguerra,94.246.373,5/10/1974,M,14/2/2006,5700002,Ejecutivo Comercial,5700008,Zona 2,Apartadó,Antioquia,$31.826.604,gregorio.echeverria@sulogistics.com,gecheverriae1974,M2.jpg,320-662-8755
+Cecilia,Umaña,Viscaya,53.233.697,26/1/1977,F,6/4/2006,5700003,Ejecutivo Comercial,5700060,Zona 2,Armenia,Quindío,$48.816.520,cecilia.umaña@sulogistics.com,cumañav1977,F2.jpg,314-804-3906
+Marcela,Mendoza,Uzurriaga,53.105.206,21/6/1999,F,13/6/2006,5700004,Ejecutivo Comercial,5700033,Zona 3,Palmira,Valle del Cauca,$16.977.199,marcela.mendoza@sulogistics.com,mmendozau1999,F3.jpg,315-438-9705
+María Jimena,Úzuga,Alzate,53.491.229,9/6/1998,F,13/7/2006,5700005,Ejecutivo Comercial,5700015,Zona 4,Sincelejo,Sucre,$38.374.492,mariajimena.uzuga@sulogistics.com,muzugaa1998,F4.jpg,320-476-4540
+Agustín,Echaverría,Londoño,94.779.921,15/3/1983,M,8/8/2006,5700006,Ejecutivo Comercial,5700008,Zona 2,Apartadó,Antioquia,$25.641.890,agustin.echaverria@sulogistics.com,aechaverrial1983,M2.jpg,317-573-3850
+José Miguel,Arteaga,Olózaga,94.465.311,30/4/1981,M,10/8/2006,5700007,Ejecutivo Comercial,5700039,Zona 4,Barranquilla,Atlántico,$40.184.669,josemiguel.arteaga@sulogistics.com,jarteagao1981,M4.jpg,313-705-6859
+Tatiana,Echavarría,Montoya,53.254.105,23/3/1984,F,26/12/2006,5700008,Subgerente Regional,5700028,Zona 2,Medellín,Antioquia,,tatiana.echavarria@sulogistics.com,techavarriam1984,F2.jpg,315-494-4966
+Joaquín,Sarria,Otoya,94.728.539,4/12/1995,M,7/1/2007,5700009,Gerente Regional,5700079,Zona 1,Bogotá,Cundinamarca,,joaquin.sarria@sulogistics.com,jsarriao1995,M1.jpg,310-736-6047
+Rebeca,Esguerra,Arana,53.112.264,30/11/1976,F,7/8/2007,5700010,Gerente Regional,5700079,Zona 5,Villavicencio,Meta,,rebeca.esguerra@sulogistics.com,resguerraa1976,F5.jpg,315-976-4087
+María Elisa,Daza,Echeverry,53.116.639,25/6/1971,F,11/9/2007,5700011,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$39.447.176,mariaelisa.daza@sulogistics.com,mdazae1971,F1.jpg,316-168-8006
+Gregorio,Mazuera,Gardeazábal,94.827.364,16/2/1971,M,3/10/2007,5700012,Ejecutivo Comercial,5700033,Zona 3,Palmira,Valle del Cauca,$49.952.888,gregorio.mazuera@sulogistics.com,gmazuerag1971,M3.jpg,310-932-2663
+Elías,Úzuga,Gardeazábal,94.740.245,14/2/1997,M,27/10/2007,5700013,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$44.492.034,elias.uzuga@sulogistics.com,euzugag1997,M1.jpg,317-518-1777
+Simón,Samudio,Arana,94.946.702,5/2/1993,M,16/8/2008,5700014,Ejecutivo Comercial,5700039,Zona 4,Riohacha,La Guajira,$27.620.959,simon.samudio@sulogistics.com,ssamudioa1993,M4.jpg,314-112-2252
+Luis Ernesto,Saldarriaga,Solórzano,94.570.156,9/9/1975,M,30/8/2008,5700015,Subgerente Regional,5700063,Zona 4,Cartagena,Bolívar,,luisernesto.saldarriaga@sulogistics.com,lsaldarriagas1975,M4.jpg,311-907-3358
+María Dolores,Chavarro,Lenis,53.323.66,9/8/2000,F,13/11/2008,5700016,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$47.230.805,mariadolores.chavarro@sulogistics.com,mchavarrol2000,F1.jpg,317-115-2151
+María del Socorro,Iragorri,Bedoya,53.650.23,3/12/2000,F,20/2/2009,5700017,Ejecutivo Comercial,5700039,Zona 4,Soledad,Atlántico,$48.011.527,mariadelsocorro.iragorri@sulogistics.com,miragorrib2000,F4.jpg,315-676-2278
+Rubén,Esguerra,Molano,94.424.204,8/11/1987,M,28/3/2009,5700018,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$36.987.152,ruben.esguerra@sulogistics.com,resguerram1987,M1.jpg,319-156-4512
+María Victoria,Atehortúa,Ulloa,53.353.504,19/10/1971,F,5/4/2009,5700019,Ejecutivo Comercial,5700038,Zona 1,Floridablanca,Santander,$47.338.336,mariavictoria.atehortua@sulogistics.com,matehortuau1971,F1.jpg,312-646-6719
+Magdalena,Zuleta,Larrahondo,53.39.522,10/10/1999,F,4/6/2009,5700020,Ejecutivo Comercial,5700045,Zona 2,Ibagué,Tolima,$43.139.394,magdalena.zuleta@sulogistics.com,mzuletal1999,F2.jpg,319-480-5722
+Eva,Arrieta,Samudio,53.287.572,21/10/1970,F,12/7/2009,5700021,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$21.791.732,eva.arrieta@sulogistics.com,earrietas1970,F1.jpg,315-288-9592
+Luis Felipe,Úzuga,Azcárate,94.144.649,10/9/1987,M,26/8/2009,5700022,Ejecutivo Comercial,5700038,Zona 1,Cúcuta,Norte de Santander,$32.641.318,luisfelipe.uzuga@sulogistics.com,luzugaa1987,M1.jpg,316-317-8743
+Luis Alfonso,Chavarríaga,Upegui,94.411.530,27/8/1989,M,23/10/2009,5700023,Ejecutivo Comercial,5700068,Zona 3,Pasto,Nariño,$48.390.316,luisalfonso.chavarriaga@sulogistics.com,lchavarriagau1989,M3.jpg,315-336-7063
+Beatriz,Echaverría,Maya,53.340.740,24/4/1980,F,4/11/2009,5700024,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$27.551.871,beatriz.echaverria@sulogistics.com,bechaverriam1980,F1.jpg,317-865-4541
+Ricardo,Zambrano,Chavarríaga,94.766.653,25/6/1980,M,13/1/2010,5700025,Ejecutivo Comercial,5700068,Zona 3,Tumaco,Nariño,$41.692.365,ricardo.zambrano@sulogistics.com,rzambranoc1980,M3.jpg,319-942-2556
+María Claudia,Arizmendi,Urdaneta,53.602.408,24/2/1981,F,3/2/2010,5700026,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$42.101.150,mariaclaudia.arizmendi@sulogistics.com,marizmendiu1981,F1.jpg,319-857-3990
+Claudia,Esguerra,Loaiza,53.506.708,16/10/1997,F,15/4/2010,5700027,Ejecutivo Comercial,5700068,Zona 3,Pasto,Nariño,$23.270.968,claudia.esguerra@sulogistics.com,cesguerral1997,F3.jpg,311-300-7012
+Fabián,Cortázar,Loaiza,94.346.290,16/7/1998,M,10/11/2010,5700028,Gerente Regional,5700079,Zona 2,Medellín,Antioquia,,fabianrtazar@sulogistics.com,fcortazarl1998,M2.jpg,320-557-5045
+Paula,Atehortúa,Mendoza,53.983.501,16/10/1985,F,16/12/2010,5700029,Ejecutivo Comercial,5700068,Zona 3,Tumaco,Nariño,$35.596.603,paula.atehortua@sulogistics.com,patehortuam1985,F3.jpg,317-677-7569
+María Cecilia,Maya,Echeverría,53.393.776,3/6/1973,F,29/12/2010,5700030,Ejecutivo Comercial,5700033,Zona 3,Cali,Valle del Cauca,$24.915.148,mariacecilia.maya@sulogistics.com,mmayae1973,F3.jpg,317-296-1723
+Hernando,Cortázar,Ezguerra,94.331.430,19/9/1975,M,4/2/2011,5700031,Ejecutivo Comercial,5700008,Zona 2,Envigado,Antioquia,$30.459.554,hernandortazar@sulogistics.com,hcortazare1975,M2.jpg,316-155-2213
+Juan Roberto,Ulloa,Lezama,94.145.893,18/11/1976,M,6/2/2011,5700032,Ejecutivo Comercial,5700008,Zona 2,Medellín,Antioquia,$35.183.567,juanroberto.ulloa@sulogistics.com,julloal1976,M2.jpg,314-442-4698
+Antonio,Chavarríaga,Erazo,94.419.554,16/10/1979,M,17/3/2011,5700033,Subgerente Regional,5700058,Zona 3,Cali,Valle del Cauca,,antonio.chavarriaga@sulogistics.com,achavarriagae1979,M3.jpg,321-759-7748
+Eduardo,Echandía,Anzola,94.309.423,4/6/1972,M,5/10/2011,5700034,Ejecutivo Comercial,5700033,Zona 3,Cali,Valle del Cauca,$44.537.276,eduardo.echandia@sulogistics.com,eechandiaa1972,M3.jpg,316-287-8486
+Paloma,Artistizábal,Loaiza,53.402.505,25/3/1989,F,14/10/2011,5700035,Ejecutivo Comercial,5700033,Zona 3,Buenaventura,Valle del Cauca,$47.420.381,paloma.artistizabal@sulogistics.com,partistizaball1989,F3.jpg,311-202-8952
+Juan Fernando,Arteaga,Espitia,94.542.886,11/5/1996,M,16/10/2011,5700036,Ejecutivo Comercial,5700033,Zona 3,Tuluá,Valle del Cauca,$45.223.635,juanfernando.arteaga@sulogistics.com,jarteagae1996,M3.jpg,316-887-9789
+Esteban,Mendiola,Cortázar,94.536.366,8/10/1996,M,11/3/2012,5700037,Ejecutivo Comercial,5700068,Zona 3,Tumaco,Nariño,$44.987.651,esteban.mendiola@sulogistics.com,emendiolac1996,M3.jpg,318-161-4155
+María del Pilar,Jáuregui,Arana,53.226.489,13/1/2000,F,26/6/2012,5700038,Subgerente Regional,5700009,Zona 1,Cúcuta,Norte de Santander,,mariadelpilar.jauregui@sulogistics.com,mjaureguia2000,F1.jpg,311-338-4706
+Ana Lucía,Londoño,Argote,53.885.201,25/2/1999,F,14/7/2012,5700039,Subgerente Regional,5700063,Zona 4,Barranquilla,Atlántico,,analucia.londoño@sulogistics.com,alondoñoa1999,F4.jpg,320-831-7826
+Juan Fernando,Oquendo,Uzurriaga,94.974.613,15/3/1985,M,27/2/2013,5700040,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$33.811.319,juanfernando.oquendo@sulogistics.com,joquendou1985,M1.jpg,312-170-9920
+Félix,Dorronsoro,Londoño,94.684.368,4/8/1985,M,23/3/2013,5700041,Ejecutivo Comercial,5700056,Zona 1,Soacha,Cundinamarca,$24.595.413,felix.dorronsoro@sulogistics.com,fdorronsorol1985,M1.jpg,318-624-8373
+Jorge Iván,Garavito,Sarasti,94.786.635,24/8/1993,M,22/8/2013,5700042,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$40.204.590,jorgeivan.garavito@sulogistics.com,jgaravitos1993,M1.jpg,319-483-5343
+Carlos,Marulanda,Solórzano,94.862.202,20/2/1983,M,23/8/2013,5700043,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$27.901.150,carlos.marulanda@sulogistics.com,cmarulandas1983,M1.jpg,314-850-6612
+Gonzalo,Obando,Zambrano,94.569.315,9/1/1986,M,15/12/2013,5700044,Ejecutivo Comercial,5700039,Zona 4,Barranquilla,Atlántico,$39.075.926,gonzalo.obando@sulogistics.com,gobandoz1986,M4.jpg,316-157-3879
+Valeria,Anzola,Zúñiga,53.480.961,23/4/1988,F,14/6/2014,5700045,Subgerente Regional,5700028,Zona 2,Ibagué,Tolima,,valeria.anzola@sulogistics.com,vanzolaz1988,F2.jpg,321-174-9082
+María Victoria,Arana,Echaverría,53.510.377,1/3/1979,F,29/6/2014,5700046,Subgerente Regional,5700009,Zona 1,Bogotá,Cundinamarca,,mariavictoria.arana@sulogistics.com,maranae1979,F1.jpg,315-363-9624
+Cecilia,Oquendo,Lezama,53.568.970,19/9/1985,F,7/8/2014,5700047,Ejecutivo Comercial,5700008,Zona 2,Medellín,Antioquia,$23.454.966,cecilia.oquendo@sulogistics.com,coquendol1985,F2.jpg,317-614-3304
+Ana Lucía,Zuleta,Lizarazo,53.107.507,4/12/1981,F,15/8/2014,5700048,Ejecutivo Comercial,5700015,Zona 4,Cartagena,Bolívar,$49.376.310,analucia.zuleta@sulogistics.com,azuletal1981,F4.jpg,319-809-9759
+Rosalía,Viscaya,Ortiz,53.933.885,13/5/1985,F,12/9/2014,5700049,Ejecutivo Comercial,5700015,Zona 4,Cartagena,Bolívar,$20.503.022,rosalia.viscaya@sulogistics.com,rviscayao1985,F4.jpg,311-357-3175
+Simón,Zea,Olaya,94.556.601,27/4/1992,M,26/10/2014,5700050,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$24.952.618,simon.zea@sulogistics.com,szeao1992,M1.jpg,310-227-5817
+Sara,Landázuri,Azcárate,53.548.666,23/5/1985,F,1/1/2015,5700051,Ejecutivo Comercial,5700056,Zona 1,Soacha,Cundinamarca,$43.943.534,sara.landazuri@sulogistics.com,slandazuria1985,F1.jpg,317-812-5469
+Alberto,Zea,Londoño,94.250.200,30/11/1983,M,25/2/2015,5700052,Ejecutivo Comercial,5700045,Zona 2,Ibagué,Tolima,$26.224.343,alberto.zea@sulogistics.com,azeal1983,M2.jpg,321-194-1524
+Tatiana,Larrahondo,Chavarro,53.730.117,14/10/1986,F,26/2/2015,5700053,Ejecutivo Comercial,5700008,Zona 2,Medellín,Antioquia,$17.382.981,tatiana.larrahondo@sulogistics.com,tlarrahondoc1986,F2.jpg,318-417-4898
+Virginia María,Iragorri,Ibargüen,53.635.157,24/9/1998,F,1/3/2015,5700054,Ejecutivo Comercial,5700033,Zona 3,Cali,Valle del Cauca,$29.398.326,virginiamaria.iragorri@sulogistics.com,viragorrii1998,F3.jpg,310-593-3997
+Irene,Mazuera,Lizarazo,53.225.966,24/8/1971,F,11/3/2015,5700055,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$42.989.473,irene.mazuera@sulogistics.com,imazueral1971,F1.jpg,314-733-2238
+Mariana,Loaiza,Zuluaga,53.622.318,9/1/1991,F,13/3/2015,5700056,Subgerente Regional,5700009,Zona 1,Bogotá,Cundinamarca,,mariana.loaiza@sulogistics.com,mloaizaz1991,F1.jpg,311-755-7183
+Nicolás,Espitia,Argote,94.143.578,22/7/1982,M,1/7/2015,5700057,Ejecutivo Comercial,5700039,Zona 4,Barranquilla,Atlántico,$30.826.130,nicolas.espitia@sulogistics.com,nespitiaa1982,M4.jpg,314-263-4211
+Miguel Antonio,Uzurriaga,Sarria,94.916.844,14/3/1998,M,21/9/2015,5700058,Gerente Regional,5700079,Zona 3,Cali,Valle del Cauca,,miguelantonio.uzurriaga@sulogistics.com,muzurriagas1998,M3.jpg,313-932-1190
+María Claudia,Uribe,Otoya,53.567.668,15/4/1994,F,6/10/2015,5700059,Ejecutivo Comercial,5700060,Zona 2,Pereira,Risaralda,$19.789.103,mariaclaudia.uribe@sulogistics.com,muribeo1994,F2.jpg,320-812-5323
+Celia,Alzate,Bolívar,53.898.67,6/6/1999,F,30/11/2015,5700060,Subgerente Regional,5700028,Zona 2,Manizales,Caldas,,celia.alzate@sulogistics.com,calzateb1999,F2.jpg,312-277-8844
+Carlota,Unzueta,Obando,53.766.735,2/8/1984,F,21/12/2015,5700061,Ejecutivo Comercial,5700056,Zona 1,Bogotá,Cundinamarca,$34.240.139,carlota.unzueta@sulogistics.com,cunzuetao1984,F1.jpg,315-503-9436
+Benjamín,Echandía,Echeverría,94.230.243,27/7/1997,M,15/5/2016,5700062,Ejecutivo Comercial,5700010,Zona 5,Villavicencio,Meta,$31.175.144,benjamin.echandia@sulogistics.com,bechandiae1997,M5.jpg,313-614-1040
+María Inés,Gaviria,Obando,53.851.476,20/1/1983,F,26/5/2016,5700063,Gerente Regional,5700079,Zona 4,Barranquilla,Atlántico,,mariaines.gaviria@sulogistics.com,mgaviriao1983,F4.jpg,314-801-5286
+Fermín,Lenis,Ortiz,94.908.330,6/2/1995,M,19/9/2016,5700064,Ejecutivo Comercial,5700010,Zona 5,Yopal,Casanare,$22.131.338,fermin.lenis@sulogistics.com,fleniso1995,M5.jpg,315-480-1583
+Álvaro,Urdaneta,Daza,94.292.699,11/2/1971,M,7/11/2016,5700065,Ejecutivo Comercial,5700039,Zona 4,Santa Marta,Magdalena,$48.248.869,alvaro.urdaneta@sulogistics.com,aurdanetad1971,M4.jpg,311-333-6499
+María Ángela,Ortiz,Upegui,53.159.848,14/2/1997,F,14/11/2016,5700066,Ejecutivo Comercial,5700010,Zona 5,Villavicencio,Meta,$23.691.072,mariaangela.ortiz@sulogistics.com,mortizu1997,F5.jpg,314-311-6755
+Luis Enrique,Lara,Olaya,94.615.579,30/7/1981,M,3/1/2017,5700067,Ejecutivo Comercial,5700015,Zona 4,Sincelejo,Sucre,$48.491.418,luisenrique.lara@sulogistics.com,llarao1981,M4.jpg,320-141-7130
+María Angélica,Argote,Argote,53.725.429,30/11/1973,F,12/1/2017,5700068,Subgerente Regional,5700058,Zona 3,Pasto,Nariño,,mariaangelica.argote@sulogistics.com,margotea1973,F3.jpg,312-497-3066
+María Claudia,Otálora,Mendieta,53.878.343,5/4/1992,F,14/1/2017,5700069,Ejecutivo Comercial,5700008,Zona 2,Bello,Antioquia,$35.470.963,mariaclaudia.otalora@sulogistics.com,motaloram1992,F2.jpg,320-778-2797
+Eduardo,Arteta,Ulloa,94.335.177,2/2/1974,M,23/2/2017,5700070,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$42.123.182,eduardo.arteta@sulogistics.com,eartetau1974,M1.jpg,320-635-1393
+Carlos Alberto,Upegui,Otálora,94.939.827,8/6/1998,M,27/2/2017,5700071,Ejecutivo Comercial,5700068,Zona 3,Pasto,Nariño,$25.935.804,carlosalberto.upegui@sulogistics.com,cupeguio1998,M3.jpg,314-695-3932
+Damián,Daza,Arizabaleta,94.464.559,23/1/1977,M,13/5/2017,5700072,Ejecutivo Comercial,5700010,Zona 5,Yopal,Casanare,$25.953.890,damian.daza@sulogistics.com,ddazaa1977,M5.jpg,320-337-4473
+Carlos,Zea,Ochoa,94.429.224,26/9/1993,M,8/8/2017,5700073,Ejecutivo Comercial,5700038,Zona 1,Bucaramanga,Santander,$43.908.613,carlos.zea@sulogistics.com,czeao1993,M1.jpg,315-788-9472
+Félix,Arrieta,Alzate,94.231.700,29/5/1970,M,2/9/2017,5700074,Ejecutivo Comercial,5700010,Zona 5,Villavicencio,Meta,$15.883.848,felix.arrieta@sulogistics.com,farrietaa1970,M5.jpg,311-655-5749
+José,Ulloa,Otálora,94.259.424,5/7/1992,M,1/3/2018,5700075,Ejecutivo Comercial,5700060,Zona 2,Manizales,Caldas,$33.817.472,jose.ulloa@sulogistics.com,julloao1992,M2.jpg,311-454-5090
+María Luisa,Upegui,Urdinola,53.456.127,4/4/1997,F,3/4/2018,5700076,Ejecutivo Comercial,5700010,Zona 5,Villavicencio,Meta,$49.730.216,marialuisa.upegui@sulogistics.com,mupeguiu1997,F5.jpg,320-869-3162
+Magdalena,Montoya,Oquendo,53.261.332,24/11/1980,F,24/6/2018,5700077,Ejecutivo Comercial,5700039,Zona 4,Santa Marta,Magdalena,$31.597.847,magdalena.montoya@sulogistics.com,mmontoyao1980,F4.jpg,320-379-3363
+Beatriz,Jáuregui,Uribe,53.326.355,23/3/1995,F,13/8/2018,5700078,Ejecutivo Comercial,5700039,Zona 4,Valledupar,Cesar,$40.377.521,beatriz.jauregui@sulogistics.com,bjaureguiu1995,F4.jpg,320-834-4584
+Sebastián,Uribarri,Echandía,94.873.179,2/9/1981,M,21/11/2018,5700079,Gerente Comercial,,Colombia,Bogotá,Cundinamarca,,sebastian.uribarri@sulogistics.com,suribarrie1981,CM.jpg,320-476-8731
+Emilio,Ortiz,Otálora,94.894.754,16/6/1987,M,2/12/2018,5700080,Ejecutivo Comercial,5700010,Zona 5,Villavicencio,Meta,$32.554.516,emilio.ortiz@sulogistics.com,eortizo1987,M5.jpg,310-867-1713
+Fátima,Dorronsoro,Lenis,53.572.739,4/5/1985,F,11/12/2018,5700081,Ejecutivo Comercial,5700046,Zona 1,Bogotá,Cundinamarca,$31.995.916,fatima.dorronsoro@sulogistics.com,fdorronsorol1985,F1.jpg,318-115-1301
+José María,Galarza,Arrieta,94.253.448,13/7/1995,M,15/2/2019,5700082,Ejecutivo Comercial,5700015,Zona 4,Montería,Córdoba,$27.490.626,josemaria.galarza@sulogistics.com,jgalarzaa1995,M4.jpg,314-930-9669
+Esther,Aguirre,Iriarte,53.987.221,31/5/1967,F,3/6/1987,5800001,Asistente de Gerencia,5700079,Colombia,Bogotá,Cundinamarca,,esther.aguirre@sulogistics.com,eaguirrei1967,CF.jpg,318-716-0963
