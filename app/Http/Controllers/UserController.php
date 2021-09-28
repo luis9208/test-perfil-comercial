@@ -10,17 +10,6 @@ use Maatwebsite\Excel\Facades\Excel;
 class UserController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        $users = User::all();
-        return response()->json(['users' => $users], 200);
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -29,6 +18,7 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $file = $request->file('file');
+        header('Access-Control-Allow-Origin: *');
         $msg = 'Todo se cargo OK';
         $status = 201;
         try {
@@ -36,8 +26,6 @@ class UserController extends Controller
             Excel::import(new UsersImport, $file);
         } catch (\Exception $ex) {
             //throw $th;
-            dd($ex);
-
             $msg = $ex->getMessage();
             $status = 500;
 
@@ -46,21 +34,13 @@ class UserController extends Controller
         return response()->json(['message' => $msg], $status);
     }
 
+    
     /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * Consulta los datos de los empleados y subalternos
+     * @param Request $request 
      */
-    public function update(Request $request)
-    {
-        //
-    }
-
     public function search(Request $request)
     {
-
         $user = User::find($request->id); //$request->user();
         $subordinates = null;
         $status = 200;
@@ -83,8 +63,4 @@ class UserController extends Controller
         return response()->json(['usuario' => $user, 'subalternos' => $subordinates], $status);
     }
 
-    public function hasBoss($id)
-    {
-        User::find($id)->first();
-    }
 }
