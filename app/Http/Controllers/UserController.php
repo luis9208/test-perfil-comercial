@@ -23,10 +23,8 @@ class UserController extends Controller
         $msg = 'Todo se cargo OK';
         $status = 201;
         try {
-            //code...
             Excel::import(new UsersImport, $file);
         } catch (\Exception $ex) {
-            //throw $th;
             $msg = $ex->getMessage();
             $status = 500;
 
