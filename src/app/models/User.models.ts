@@ -1,0 +1,20 @@
+export class User {
+    nombres:string
+    apellido_1:string
+    apellido_2:string
+    cedula:string
+    fecha_nacimiento:string
+    genero:string
+    fecha_ingreso:string
+    numero_empleado:string
+    cargo:string
+    jefe:string
+    zona:string
+    municipio:string
+    departamento:string
+    ventas:number
+    email:string
+    imagen:string
+    celular:string
+    subalternos:[]
+}

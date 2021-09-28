@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="content">
+        <div class="card mt-5 col-lg-6 mx-auto">
+            <div class="card-header ">
+                Inicio de Sesion
+            </div>
+            <div class="card-body">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit(formDir)" #formDir="ngForm" autocomplete="off">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" class="form-control" name="email" id="email" formControlName="email"
+                                aria-describedby="emailHelpId" placeholder="correo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="pwd"></label>
+                            <input type="password" class="form-control" name="password" id="pwd"
+                                formControlName="password" aria-describedby="emailHelpId" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="btn"></label>
+                            <button type="submit" class="btn btn-primary" id="btn" [disabled]="!loginForm.valid">
+                                Iniciar Sesion
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

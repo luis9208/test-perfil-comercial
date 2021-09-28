@@ -1,0 +1,85 @@
+<app-header></app-header>
+
+<div class="container mx-auto">
+    <div class="content">
+        <div *ngIf="user.usuario.is_super">
+            <div class="card">
+                <div class="card-header">
+                    Perfil Usuario
+                </div>
+                <div class="flex flex-lg-column">
+                    <img class="img rounded-circle mx-auto mt-1" src="assets/images/{{user.usuario.imagen}}" width="25%"
+                        alt="perfil">
+                    <div class="card-body">
+                        <h4 class="card-title">{{user.usuario.nombres}} {{user.usuario.apellido_1}}
+                            {{user.usuario.apellido_2}}
+                        </h4>
+                        <small>{{user.usuario.numero_empleado}}</small>
+                        <p class="card-text">{{user.usuario.cargo}}</p>
+                        <p class="btn btn-block btn-success"> {{user.usuario.ventas | currency}} </p>
+
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div *ngIf="user.subalternos.length > 0">
+                        <div class="table-responsive-md">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <td scope="col">
+                                            Nombre
+                                        </td>
+                                        <td scope="col">
+                                            Ventas
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of user.subalternos">
+                                        <td scope="row">
+                                            <a name="link" id="user" class="nav-link" role="cell"
+                                                (click)="perfilSub(item.id)"> {{item.nobres}} {{item.apellido_1}}
+                                                {{item.apellido_2}}</a>
+                                        </td>
+                                        <td scope="row">
+                                            {{item.ventas | currency}}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="!user.usuario.is_super">
+            <div class="card mt-5 col-lg-6 mx-auto">
+                <div class="card-header ">
+                    Carga de datos
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="loadForm" (ngSubmit)="loadFile()" #formDir="ngForm" autocomplete="off">
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="file"></label>
+                                <input type="file" class="form-control" name="file" id="file" formControlName="file"
+                                    aria-describedby="fileHelpId" placeholder="Archivo a subir" accept=".csv"
+                                    (change)="selectFile($event.target)">
+                            </div>
+                            <small *ngIf="message"> {{message}}</small>
+                        </div>
+                        <p> </p>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label for="btn"></label>
+                                <button type="submit" class="btn btn-primary" id="btn" [disabled]="!loadForm.valid">
+                                    Subir
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
