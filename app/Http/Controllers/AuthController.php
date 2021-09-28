@@ -17,28 +17,35 @@ class AuthController extends Controller
         $credentials = $request->only('email', 'password');
         $msg = '';
         $status = 200;
-        if(!Auth::attempt($credentials)){
-            $msg = 'El usuario no es valido';
-            $status = 401;
+        try {
+            if (!Auth::attempt($credentials)) {
+                $msg = 'El usuario no es valido';
+                $status = 401;
+            }
+            /**
+             * @var User
+             */
+            $user = Auth::user();
+
+            $token = $user->createToken('TokenPersonal');
+
+            $msg = [
+                'token' => $token->accessToken,
+                'type' => 'Bearer Token',
+                'user' => $user->id,
+            ];
+        } catch (\Throwable $th) {
+            $msg = 'El usuario no existe';
+            $status = 500;
         }
-        /**
-         * @var User
-         */
-        $user = Auth::user();
 
-        $token = $user->createToken('TokenPersonal');
-
-        $msg = [
-            'token'=> $token->accessToken,
-            'type'=>'Bearer Token',
-            'user'=> $user->id
-        ];
-        return response()->json(['message'=>$msg], $status);
+        return response()->json(['message' => $msg], $status);
 
     }
 
-    public function logout(){
+    public function logout()
+    {
         Auth::logout();
-        return response()->json(['message'=>'login'], 200);
+        return response()->json(['message' => 'login'], 200);
     }
 }

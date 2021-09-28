@@ -17,8 +17,9 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+     
         $file = $request->file('file');
-        header('Access-Control-Allow-Origin: *');
+        
         $msg = 'Todo se cargo OK';
         $status = 201;
         try {
@@ -30,7 +31,6 @@ class UserController extends Controller
             $status = 500;
 
         }
-
         return response()->json(['message' => $msg], $status);
     }
 
