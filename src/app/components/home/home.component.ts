@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   message: string;
   loadForm: FormGroup;
   select: any;
+  alert: string;
   constructor(private auth: AuthService, private router: Router, private builder: FormBuilder) {
     this.loadForm = builder.group({
       file:['', Validators.required]
@@ -38,6 +39,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.select=null;
     this.cargardata();
   }
 
@@ -60,20 +62,24 @@ export class HomeComponent implements OnInit {
 
 
   selectFile(target){
-    this.select = target.files;
+    this.select = target.files[0];
+    console.log(target);
+    
   }
 
   loadFile(){
-    console.log(this.loadForm.value);
-    const formData: FormData = new FormData();
-    formData.append('file', this.select[0], this.select[0].name);
+    let formData: FormData = new FormData();
+    formData.append('file', this.select);
 
     this.auth.loadFile(formData).subscribe({
       next:(data:any)=>{
-        this.message = data;
+        this.message = data.message;
+        this.alert = 'alert-success';
       },
       error:(err)=>{
-        this.message=err;
+        this.message=err.message;
+        this.alert = 'alert-danger';
+
       }
     });
   }

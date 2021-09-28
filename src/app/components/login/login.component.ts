@@ -12,6 +12,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
+  message:string;
   constructor(private buider: FormBuilder, private router: Router, private auth: AuthService) {
     this.loginForm = this.buider.group({
       email: ['', Validators.required],
@@ -27,11 +28,11 @@ export class LoginComponent implements OnInit {
     this.auth.login(this.loginForm.value).subscribe({
       next: (data:any) => {
         localStorage.setItem('userData', JSON.stringify(data.message));
-        this.router.navigate(['dashboard']);
+        this.router.navigate(['/dashboard']);
+
       },
       error: (err) => {
-        console.log(err.message);
-        
+        this.message = err.error.message
       }
     })
   }

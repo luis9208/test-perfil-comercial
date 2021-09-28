@@ -2,7 +2,7 @@
 
 <div class="container mx-auto">
     <div class="content">
-        <div *ngIf="user.usuario.is_super">
+        <div *ngIf="!user.usuario.admin">
             <div class="card">
                 <div class="card-header">
                     Perfil Usuario
@@ -52,21 +52,25 @@
                 </div>
             </div>
         </div>
-        <div *ngIf="!user.usuario.is_super">
+        <div *ngIf="user.usuario.admin">
             <div class="card mt-5 col-lg-6 mx-auto">
                 <div class="card-header ">
                     Carga de datos
+                    
                 </div>
+                <span *ngIf="message">
+                    <small class="alert {{alert}}"> {{message}}</small>
+                </span>
                 <div class="card-body">
                     <form [formGroup]="loadForm" (ngSubmit)="loadFile()" #formDir="ngForm" autocomplete="off">
                         <div class="row">
                             <div class="form-group">
                                 <label for="file"></label>
                                 <input type="file" class="form-control" name="file" id="file" formControlName="file"
-                                    aria-describedby="fileHelpId" placeholder="Archivo a subir" accept=".csv"
+                                    aria-describedby="fileHelpId" placeholder="Archivo a subir"
                                     (change)="selectFile($event.target)">
                             </div>
-                            <small *ngIf="message"> {{message}}</small>
+                           
                         </div>
                         <p> </p>
                         <div class="row">

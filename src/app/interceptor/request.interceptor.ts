@@ -49,6 +49,7 @@ export class RequestInterceptor implements HttpInterceptor {
           }
         }));
     }
+    this.router.navigate(['dashboard']);
     return next.handle(req);
   }
 

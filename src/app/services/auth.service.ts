@@ -38,7 +38,7 @@ export class AuthService {
   logout() {
     let url = this.api.concat('logout/');
     localStorage.clear();
-    return this.http.post(url,{});
+    return this.http.post(url, {});
   }
 
   search(data: any) {
@@ -50,11 +50,13 @@ export class AuthService {
     return this.http.post(url, data, { headers });
   }
 
-  loadFile(data:FormData){
+  loadFile(data: FormData) {
     let headers = new HttpHeaders();
-    headers = headers.set('Content-Type', 'application/vnd.ms-excel');
     let url = this.api.concat('admin/import/');
-    return this.http.post(url, data, {headers});
+
+    headers.set('Content-Type', 'application/json');
+    headers.set('Content-Type', 'application/x-www-form-urlencoded')
+    return this.http.post(url, data, { headers });
   }
 
   /**
@@ -71,6 +73,11 @@ export class AuthService {
    */
   get user() {
     return this.user_id;
+  }
+
+  //Verifica si el usuario esta logueado
+  isLogged(){
+    return !!this.accessToken;
   }
 
 }
