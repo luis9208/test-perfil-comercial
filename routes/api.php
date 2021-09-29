@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::middleware(['cors'])->group(function () {
+Route::group(['middleware' =>['cors']],function () {
     Route::post('login/', 'AuthController@login');
     Route::post('logout/', 'AuthController@logout');
 
