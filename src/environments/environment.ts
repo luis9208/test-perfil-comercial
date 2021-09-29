@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   // host:'http://localhost:8000/api/'
-  host: 'still-castle-46072.herokuapp.com/api/'
+  host: 'https://still-castle-46072.herokuapp.com/api/'
 };
 
 /*
