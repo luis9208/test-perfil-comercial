@@ -16,9 +16,15 @@ class HttpsProtocol
      */
     public function handle(Request $request, Closure $next)
     {
-        if(!$request->secure()){
+        if (!$request->secure()) {
             return redirect()->secure($request->getRequestUri());
         }
-        return $next($request);
+        return $next($request)
+            //Url a la que se le dará acceso en las peticiones
+            ->header("Access-Control-Allow-Origin", "http://urlfronted.example")
+             //Métodos que a los que se da acceso
+            ->header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+            //Headers de la petición
+            ->header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, X-Token-Auth, Authorization");
     }
 }
