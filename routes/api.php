@@ -17,12 +17,14 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::post('login/', 'AuthController@login');
-Route::post('logout/', 'AuthController@logout');
+Route::middleware(['cors'])->group(function () {
+    Route::post('login/', 'AuthController@login');
+    Route::post('logout/', 'AuthController@logout');
 
-Route::middleware(['auth:api'])->group(function () {
+    Route::middleware(['auth:api'])->group(function () {
 
-    Route::post('admin/import/', 'UserController@store');
-    Route::post('users/search/', 'UserController@search');
-    
+        Route::post('admin/import/', 'UserController@store');
+        Route::post('users/search/', 'UserController@search');
+
+    });
 });
