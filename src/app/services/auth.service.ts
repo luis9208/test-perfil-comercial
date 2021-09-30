@@ -10,14 +10,8 @@ export class AuthService {
   private api: string;
   private accesToken: string;
   private user_id: number;
-  private headers: HttpHeaders;
-  private obj_header :any;
   constructor(private http: HttpClient) {
     this.api = environment.host;
-    this.headers = new HttpHeaders();
-    this.headers.set('Content-Type', 'application/json');
-    // this.headers.append('Access-Control-Allow-Origin', '*');
-    this.obj_header={headers:this.headers};
 
     if (localStorage.getItem('userData')) {
       const token_str = localStorage.getItem('userData');
@@ -38,26 +32,27 @@ export class AuthService {
    */
   login(data: JSON) {
     let url = this.api.concat('login');
-    return this.http.post(url, data, this.obj_header);
+    return this.http.post(url, data);
   }
 
   logout() {
     let url = this.api.concat('logout');
     localStorage.clear();
-    return this.http.post(url, {}, this.obj_header);
+    return this.http.post(url, {});
   }
 
   search(data: any) {
     // headers = headers.set('Content-Type', 'application/json');
     let url = this.api.concat('users/search');
 
-    return this.http.post(url, data, this.obj_header);
+    return this.http.post(url, data);
   }
 
   loadFile(data: FormData) {
     let url = this.api.concat('admin/import');
-    this.headers.set('Content-Type', 'application/x-www-form-urlencoded')
-    return this.http.post(url, data, this.obj_header);
+    let headers = new HttpHeaders();
+    headers.set('Content-Type', 'application/x-www-form-urlencoded');
+    return this.http.post(url, data, {headers});
   }
 
   /**
