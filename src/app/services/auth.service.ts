@@ -16,6 +16,7 @@ export class AuthService {
     this.api = environment.host;
     this.headers = new HttpHeaders();
     this.headers.set('Content-Type', 'application/json');
+    // this.headers.append('Access-Control-Allow-Origin', '*');
     this.obj_header={headers:this.headers};
 
     if (localStorage.getItem('userData')) {
