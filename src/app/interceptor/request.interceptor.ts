@@ -1,9 +1,9 @@
-import { HttpErrorResponse, HttpHandler, HttpHeaderResponse, HttpInterceptor, HttpProgressEvent, HttpRequest, HttpResponse, HttpSentEvent, HttpUserEvent } from '@angular/common/http';
+import { HttpErrorResponse, HttpHandler, HttpHeaderResponse, HttpInterceptor, HttpProgressEvent, HttpRequest, HttpResponse, HttpSentEvent, HttpUserEvent, HttpEvent } from '@angular/common/http';
 import { CATCH_ERROR_VAR } from '@angular/compiler/src/output/output_ast';
 import { Injectable, Injector } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Observable, throwError } from 'rxjs';
-import { take, filter, catchError, switchMap, finalize } from 'rxjs/operators';
+import { take, filter, catchError, switchMap, finalize, tap } from 'rxjs/operators';
 
 import { AuthService } from '../services/auth.service';
 
@@ -24,32 +24,19 @@ export class RequestInterceptor implements HttpInterceptor {
   intercept(req: HttpRequest<any>, next: HttpHandler):
     Observable<HttpSentEvent | HttpHeaderResponse | HttpProgressEvent | HttpResponse<any> | HttpUserEvent<any>> {
     const token = this.authService.accessToken;
-    let isPublic = false;
 
-    if (isPublic) {
-      console.log('Public', req.url);
-    } else {
-      console.log('Private', req.url);
-    }
 
-    if (token && !isPublic) {
+    if (token) {
       return next.handle(this.addToken(req, token)).pipe(
-        catchError(error => {
-          if (error instanceof HttpErrorResponse) {
-            if (error && error.error && error.error.code === 'token_not_valid') {
-              return this.logoutUser();
+        tap(event => {
+          if (event instanceof HttpResponse) {
+            this.router.navigate(['/dashboard']);
 
-            } else {
-              if (error.error.detail === 'Token is invalid or expired') { // Handle Request token expired
-                console.log('Token is invalid or expired.')
-                return this.logoutUser();
-
-              }
-            }
           }
+        }, error => {
+          return this.logoutUser();
         }));
     }
-    this.router.navigate(['dashboard']);
     return next.handle(req);
   }
 
