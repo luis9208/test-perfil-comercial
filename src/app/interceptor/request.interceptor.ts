@@ -37,6 +37,7 @@ export class RequestInterceptor implements HttpInterceptor {
           return this.logoutUser();
         }));
     }
+    this.router.navigate(['/dashboard']);
     return next.handle(req);
   }
 
