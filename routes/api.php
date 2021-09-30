@@ -18,13 +18,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::group(['middleware' =>['cors']],function () {
-    Route::post('login/', 'AuthController@login');
-    Route::post('logout/', 'AuthController@logout');
+    Route::post('login', 'AuthController@login');
+    Route::post('logout', 'AuthController@logout');
 
     Route::middleware(['auth:api'])->group(function () {
 
-        Route::post('admin/import/', 'UserController@store');
-        Route::post('users/search/', 'UserController@search');
+        Route::post('admin/import', 'UserController@store');
+        Route::post('users/search', 'UserController@search');
 
     });
 });
